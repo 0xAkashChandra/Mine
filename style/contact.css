@@ -1,0 +1,80 @@
+*{
+    color: white;
+}
+header{
+    text-align: center;
+    background-color:transparent;
+    font-family: Londrina Shadow;
+    color:white;
+    padding: 10px;
+    font-size:xx-large;
+    text-shadow: 5px 3px 3px black,5px 3px 5px black;
+    background-attachment: fixed;
+}
+nav{
+    position: sticky;
+    top:0px;
+    padding: 20px;
+    background-color:black;  
+    text-align: center; 
+}
+nav a{
+    font-size: larger;
+
+    color:white;
+    text-decoration-line: none;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    background-image: url('../images/mat.gif');
+    margin:0px;
+}
+nav a:hover{
+    box-shadow: 0 5px 5px 5px #55f715;
+    color: #55f715;
+}
+.contain{
+    margin: 100px;
+}
+.container{
+    margin: 100px;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+.fa-github{
+    font-size: 50px;
+    color:white;
+}
+.fa-instagram{
+    font-size: 50px;
+    color: #dd2a7b;
+}
+.fa-twitter{
+    font-size: 50px;
+    color: rgb(29,161,242);
+}
+.github{
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 10px;
+    border-radius: 40px;
+}
+.instagram{
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.281);
+    padding: 10px;
+    border-radius: 40px;
+}
+.twitter{
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.301);
+    padding: 10px;
+    border-radius: 40px;
+}
+.container a{
+    text-decoration: none;
+}

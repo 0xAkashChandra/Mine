@@ -1,0 +1,52 @@
+*{
+    color: white;
+}
+header{
+    text-align: center;
+    background-color:transparent;
+    font-family: Londrina Shadow;
+    color:white;
+    padding: 10px;
+    font-size:xx-large;
+    text-shadow: 5px 3px 3px black,5px 3px 5px black;
+    background-attachment: fixed;
+}
+nav{
+    position: sticky;
+    top:0px;
+    padding: 20px;
+    background-color:black;  
+    text-align: center; 
+}
+nav a{
+    font-size: larger;
+
+    color:white;
+    text-decoration-line: none;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    background-image: url('../images/mat.gif');
+    margin:0px;
+}
+nav a:hover{
+    box-shadow: 0 5px 5px 5px #55f715;
+    color: #55f715;
+}
+.flex-container{
+    margin: 100px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    position: relative;
+    font-size: 30px;
+    color: rgba(174,109,56,255);
+    background-color: transparent;
+    bottom: 89px;
+    padding: 5px;
+    padding-left: 27px;
+    box-shadow: 8px 8px 1px rgba(174,109,56,255);
+}
